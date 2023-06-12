@@ -1,0 +1,95 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="wwwroot\lib\tabulator\css\tabulator.css" />
+    <EmbeddedResource Include="wwwroot\lib\tabulator\css\tabulator.min.css" />
+    <EmbeddedResource Include="wwwroot\lib\tabulator\css\tabulator_bootstrap3.css" />
+    <EmbeddedResource Include="wwwroot\lib\tabulator\css\tabulator_bootstrap3.min.css" />
+    <EmbeddedResource Include="wwwroot\lib\tabulator\css\tabulator_bootstrap4.css" />
+    <EmbeddedResource Include="wwwroot\lib\tabulator\css\tabulator_bootstrap4.min.css" />
+    <EmbeddedResource Include="wwwroot\lib\tabulator\css\tabulator_bootstrap5.css" />
+    <EmbeddedResource Include="wwwroot\lib\tabulator\css\tabulator_bootstrap5.min.css" />
+    <EmbeddedResource Include="wwwroot\lib\tabulator\css\tabulator_bulma.css" />
+    <EmbeddedResource Include="wwwroot\lib\tabulator\css\tabulator_bulma.min.css" />
+    <EmbeddedResource Include="wwwroot\lib\tabulator\css\tabulator_materialize.css" />
+    <EmbeddedResource Include="wwwroot\lib\tabulator\css\tabulator_materialize.min.css" />
+    <EmbeddedResource Include="wwwroot\lib\tabulator\css\tabulator_midnight.css" />
+    <EmbeddedResource Include="wwwroot\lib\tabulator\css\tabulator_midnight.min.css" />
+    <EmbeddedResource Include="wwwroot\lib\tabulator\css\tabulator_modern.css" />
+    <EmbeddedResource Include="wwwroot\lib\tabulator\css\tabulator_modern.min.css" />
+    <EmbeddedResource Include="wwwroot\lib\tabulator\css\tabulator_semanticui.css" />
+    <EmbeddedResource Include="wwwroot\lib\tabulator\css\tabulator_semanticui.min.css" />
+    <EmbeddedResource Include="wwwroot\lib\tabulator\css\tabulator_simple.css" />
+    <EmbeddedResource Include="wwwroot\lib\tabulator\css\tabulator_simple.min.css" />
+    <EmbeddedResource Include="wwwroot\lib\tabulator\css\tabulator_site.css" />
+    <EmbeddedResource Include="wwwroot\lib\tabulator\css\tabulator_site.min.css" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="finger\" />
+    <Folder Include="image\" />
+    <Folder Include="lib\NewFolder\" />
+    <Folder Include="Download\" />
+    <Folder Include="Download\" />
+    <Folder Include="wwwroot\Uploads\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\lib\tabulator\css\tabulator.css.map" />
+    <None Include="wwwroot\lib\tabulator\css\tabulator.min.css.map" />
+    <None Include="wwwroot\lib\tabulator\css\tabulator_bootstrap3.css.map" />
+    <None Include="wwwroot\lib\tabulator\css\tabulator_bootstrap3.min.css.map" />
+    <None Include="wwwroot\lib\tabulator\css\tabulator_bootstrap4.css.map" />
+    <None Include="wwwroot\lib\tabulator\css\tabulator_bootstrap4.min.css.map" />
+    <None Include="wwwroot\lib\tabulator\css\tabulator_bootstrap5.css.map" />
+    <None Include="wwwroot\lib\tabulator\css\tabulator_bootstrap5.min.css.map" />
+    <None Include="wwwroot\lib\tabulator\css\tabulator_bulma.css.map" />
+    <None Include="wwwroot\lib\tabulator\css\tabulator_bulma.min.css.map" />
+    <None Include="wwwroot\lib\tabulator\css\tabulator_materialize.css.map" />
+    <None Include="wwwroot\lib\tabulator\css\tabulator_materialize.min.css.map" />
+    <None Include="wwwroot\lib\tabulator\css\tabulator_midnight.css.map" />
+    <None Include="wwwroot\lib\tabulator\css\tabulator_midnight.min.css.map" />
+    <None Include="wwwroot\lib\tabulator\css\tabulator_modern.css.map" />
+    <None Include="wwwroot\lib\tabulator\css\tabulator_modern.min.css.map" />
+    <None Include="wwwroot\lib\tabulator\css\tabulator_semanticui.css.map" />
+    <None Include="wwwroot\lib\tabulator\css\tabulator_semanticui.min.css.map" />
+    <None Include="wwwroot\lib\tabulator\css\tabulator_simple.css.map" />
+    <None Include="wwwroot\lib\tabulator\css\tabulator_simple.min.css.map" />
+    <None Include="wwwroot\lib\tabulator\css\tabulator_site.css.map" />
+    <None Include="wwwroot\lib\tabulator\css\tabulator_site.min.css.map" />
+    <None Include="wwwroot\lib\tabulator\js\jquery_wrapper.js" />
+    <None Include="wwwroot\lib\tabulator\js\jquery_wrapper.min.js" />
+    <None Include="wwwroot\lib\tabulator\js\tabulator.js" />
+    <None Include="wwwroot\lib\tabulator\js\tabulator.js.map" />
+    <None Include="wwwroot\lib\tabulator\js\tabulator.min.js" />
+    <None Include="wwwroot\lib\tabulator\js\tabulator.min.js.map" />
+    <None Include="wwwroot\lib\tabulator\js\tabulator_esm.js" />
+    <None Include="wwwroot\lib\tabulator\js\tabulator_esm.js.map" />
+    <None Include="wwwroot\lib\tabulator\js\tabulator_esm.min.js" />
+    <None Include="wwwroot\lib\tabulator\js\tabulator_esm.min.js.map" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ClosedXML" Version="0.96.0" />
+    <PackageReference Include="jQuery.UI.Combined" Version="1.13.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Session" Version="2.2.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.17" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.17" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.17">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="5.0.2" />
+    <PackageReference Include="Nancy" Version="2.0.0" />
+    <PackageReference Include="RestSharp" Version="107.3.0" />
+    <PackageReference Include="Syncfusion.Xamarin.SfListView" Version="20.1.0.55" />
+    <PackageReference Include="System.Data.Odbc" Version="6.0.0" />
+    <PackageReference Include="System.Data.OleDb" Version="5.0.0" />
+    <PackageReference Include="System.Drawing.Common" Version="5.0.1" />
+  </ItemGroup>
+
+</Project>
